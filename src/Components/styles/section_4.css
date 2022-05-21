@@ -1,0 +1,16 @@
+.section_4_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+}
+
+@media screen and (max-width:760px) {
+
+
+
+    .carousel_main {
+        flex-direction: column;
+
+    }
+}

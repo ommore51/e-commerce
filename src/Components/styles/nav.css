@@ -1,0 +1,130 @@
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-item a {
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.nav-item a:hover {
+    color: red !important;
+    font-weight: bolder;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+
+}
+
+
+.nav-item .active {
+    color: red !important;
+    font-weight: bolder !important;
+    text-decoration: underline !important;
+}
+
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+}
+
+.responsive_header {
+    display: none !important;
+}
+
+.responsive_header_search {
+    display: none !important;
+}
+
+.checkout_login_register {
+    width: 100% !important;
+    justify-content: center;
+}
+
+.login_register a {
+    text-decoration: none;
+    font-size: 19px;
+
+}
+
+.logout {
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.login_register a:last-child {
+    margin-left: 25px;
+
+}
+
+.d_left {
+    position: absolute;
+    right: 55px;
+
+}
+
+@media screen and (max-width:760px) {
+    li.nav-item {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: red !important;
+        font-weight: bolder;
+
+    }
+
+    a.nav-link.active {
+        color: red !important;
+        font-weight: bolder;
+    }
+
+
+    .main_nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 15px 10px;
+        align-items: center;
+    }
+
+    .responsive_header {
+        display: flex !important;
+    }
+
+    .responsive_header_li {
+        justify-content: space-between !important;
+    }
+
+    .responsive_header_search {
+        display: flex !important;
+    }
+
+    .responsive_search {
+        position: absolute !important;
+        left: 15px;
+        top: 8px;
+
+    }
+
+    input.responsive_search_input {
+        padding: 3px !important;
+        border-radius: 25px !important;
+        padding-left: 45px !important;
+        border: 1px solid black !important;
+    }
+
+
+    .checkout_login_register {
+        display: flex;
+        justify-content: space-between !important;
+    }
+}

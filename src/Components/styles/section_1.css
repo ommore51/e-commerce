@@ -1,0 +1,46 @@
+button.btn:hover {
+    color: red;
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+
+
+.filter-btn {
+    padding: 0 5px;
+
+
+}
+
+.nav-link.active {
+    color: red !important;
+    text-decoration: underline;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+
+.card:hover {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .175);
+    border: 1px solid black;
+    transition: all 0.8s ease-out;
+}
+
+.loadmore {
+    width: 100px;
+    height: 10px;
+}
+
+.btn.btn-link {
+    color: black;
+    font-size: 20px;
+
+}
+
+.badge {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}

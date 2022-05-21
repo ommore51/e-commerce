@@ -1,0 +1,40 @@
+.accessories_div {
+    background-color: #F6F7F8;
+}
+
+.accessories_ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.accessories_ul li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.accessories_ul li:hover {
+    color: red;
+    font-weight: 500;
+}
+
+.prices {
+    background-color: #F6F7F8
+}
+
+.brand_div {
+    background-color: #F6F7F8
+}
+
+@media screen and (max-width:760px) {
+    .filter_section {
+        display: none !important;
+    }
+
+    .responsive_row {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+
+}
